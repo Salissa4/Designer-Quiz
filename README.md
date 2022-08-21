@@ -22,8 +22,8 @@ https://salissa4.github.io/Designer-Quiz/
 
 ## Credits
 
-1. Edited: Handruliz Nova      Github: https://github.com/Handruliz
-2. Edited: Jeffery Littleton   Github: https://github.com/littletonjeffrey
+1. Edited: Handruliz Nova        View on Github: https://github.com/Handruliz
+2. Edited: Jeffery Littleton     View on Github: https://github.com/littletonjeffrey
 
 ## License
 
