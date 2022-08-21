@@ -10,7 +10,6 @@
 
   <body>
     <header>
-        <div class="timer">Time: <span id="time">0</span></div>
         <h1>Fashion Designer Lover?</h1>
     </header>
 
@@ -22,6 +21,7 @@
         <section id="questions" class="hide">
             <h2 id="questions-title"></h2>
             <div id="options" class="options"></div>
+            <div class="timer">Time: <span id="time">0</span></div>
         </section>
 
         <section id="end-screen" class="hide">
@@ -30,18 +30,14 @@
             <button id="submit">Submit</button>
         </section>
 
-        <section>
-            <div>
-                <h2>Win(s): <span class="win">0 </span> </h2>
-                <h2>Loss(es): <span class="lose">0</span></h2>
-            </div>
-            
-            <button class="reset-button">Reset Score</button>
+        <section class="hide">
+            <button>High Scores</button>
+            <button>Reset Score</button>
         </section>
     </main>
+
     <script src="./assets/js/questions.js"></script>
     <script src="./assets/js/script.js"></script>
-  </body>
 
-  <footer> I ❤️ Fashion by: Salissa </footer>
+  </body>
 </html>
