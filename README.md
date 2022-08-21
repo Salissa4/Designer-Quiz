@@ -1,6 +1,6 @@
 # Designer-Quiz
 
-## Create Portfolio Webpage
+## Create Quiz with Javascript
 
 Goal: Create a quiz utilizing Javascript
 
