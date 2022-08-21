@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge"/>
+    <title>Fashion Designer Quiz</title>
+    <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+  </head>
+
+  <body>
+    <header>
+        <div class="timer">Time: <span id="time">0</span></div>
+        <h1>Fashion Designer Lover?</h1>
+    </header>
+
+    <main>
+        <section id="begin-screen" class="begin">
+          <button id="begin">BEGIN</button>
+        </section>
+
+        <section id="questions" class="hide">
+            <h2 id="questions-title"></h2>
+            <div id="options" class="options"></div>
+        </section>
+
+        <section id="end-screen" class="hide">
+            <h2>Score: <span id="score"></span> </h2>
+            <form> Submit initials: <input type="text" id="initials" max="3"/></form>
+            <button id="submit">Submit</button>
+        </section>
+
+        <section>
+            <div>
+                <h2>Win(s): <span class="win">0 </span> </h2>
+                <h2>Loss(es): <span class="lose">0</span></h2>
+            </div>
+            
+            <button class="reset-button">Reset Score</button>
+        </section>
+    </main>
+    <script src="./assets/js/questions.js"></script>
+    <script src="./assets/js/script.js"></script>
+  </body>
+
+  <footer> I ❤️ Fashion by: Salissa </footer>
+</html>
