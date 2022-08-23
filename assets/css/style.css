@@ -31,7 +31,7 @@ header {
 main {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: center;
   }
 
 section {
@@ -51,6 +51,8 @@ button {
     padding: 20px;
     transition-duration: 0.15s;
     margin-top: 0.6em;
+    display: flex;
+    justify-content: space-around;
   }
 
 button:hover{
@@ -61,17 +63,6 @@ input [type="text"] {
     display: block; 
     font-size: 100%;
 }
-
-ol {
-    padding-left: 0px;
-    max-height: 400px;
-    overflow: auto;
-  }
-  
-li {
-    padding: 5px;
-    list-style: decimal inside none;
-  }
 
 .hide {
     display: none;
@@ -87,8 +78,3 @@ li {
     margin-top: 15px;
   }
   
-.timer {
-    position: absolute;
-    top: 30px;
-    right: 40px;
-  }
