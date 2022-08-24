@@ -30,7 +30,6 @@ var questions = [
         choices: ["France", "Italy", "United States", "London"],
         answer: "London"
     },
-    //add 5 more questions
 ]
 var index = 0
 var questionsArea = document.querySelector("#questions")
@@ -38,6 +37,23 @@ var timerEl = document.querySelector('.timer');
 var starQuiz = document.querySelector("#begin");
 var score = 0
 var timeLeft = 60
+
+var scoreArray = [
+    {
+        user: "name",
+        score: number ,
+    }
+]
+
+scoreArray.push({
+    user: [" name "],
+    score: 
+})
+
+
+function storeScore() {
+    localStorage.setItem("stored score", score);
+}
 
 //begin quiz timer 
 function playgame() {
@@ -58,6 +74,7 @@ starQuiz.addEventListener("click", function () {
     starQuiz.classList.add("hide")
     displayQuestion()
 });
+
 function displayQuestion() {
     questionsArea.innerHTML = ""
     var text = document.createElement("h2")
@@ -71,18 +88,27 @@ function displayQuestion() {
     }
 };
 
-function checkAnswer() {
-    if(this.value === this.answer){
+function checkAnswer(event) {
+    var ansText = event.target.textContent;
+    console.log(ansText);
+    if(ansText === questions[index].answer){
         score = score + 100;
         console.log(score);
         index++;
-        displayQuestion()
+        if (questions[index]) {
+            displayQuestion()
+            } else {
+            alert("You Win! Score: " + score);
+            storeScore();
+    }
 
     } else {
-        timeLeft -= 5;
+        timeLeft -= 10;
+        score = score - 100;
         index++;
         console.log(score);
         displayQuestion()
     }
 }
+
 
