@@ -1,6 +1,6 @@
 # Designer-Quiz
 
-## Create Quiz with Javascript
+## Create Web API Quiz with Javascript
 
 Goal: Create a quiz utilizing Javascript
 
@@ -22,8 +22,9 @@ https://salissa4.github.io/Designer-Quiz/
 
 ## Credits
 
-1. Edited: Handruliz Nova       Github: https://github.com/Handruliz
-2. Edited: Jeffery Littleton    Github: https://github.com/littletonjeffrey
+1. Collab/Edit: Handruliz Nova     Github: https://github.com/Handruliz
+2. Collab/Edit: Jeffery Littleton  Github: https://github.com/littletonjeffrey
+3. Collab/Edit: Dave Edelson       Github: https://github.com/DBEdelson
 
 ## License
 

@@ -30,18 +30,19 @@ var questions = [
         choices: ["France", "Italy", "United States", "London"],
         answer: "London"
     },
+    //add 5 more questions
 ]
 var index = 0
 var questionsArea = document.querySelector("#questions")
 var timerEl = document.querySelector('.timer');
-var starQuiz = document.querySelector("#begin")
+var starQuiz = document.querySelector("#begin");
+var score = 0
+var timeLeft = 60
 
 //begin quiz timer 
 function playgame() {
-    var timeLeft = 60;
     var timeInterval = setInterval(function () {
         if (timeLeft > 0) {
-            console.log("hi")
             timeLeft--;
             timerEl.innerText = 'Time: ' + timeLeft;
 
@@ -57,7 +58,6 @@ starQuiz.addEventListener("click", function () {
     starQuiz.classList.add("hide")
     displayQuestion()
 });
-
 function displayQuestion() {
     questionsArea.innerHTML = ""
     var text = document.createElement("h2")
@@ -72,5 +72,17 @@ function displayQuestion() {
 };
 
 function checkAnswer() {
-    
+    if(this.value === this.answer){
+        score = score + 100;
+        console.log(score);
+        index++;
+        displayQuestion()
+
+    } else {
+        timeLeft -= 5;
+        index++;
+        console.log(score);
+        displayQuestion()
+    }
 }
+
