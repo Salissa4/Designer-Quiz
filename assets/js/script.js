@@ -38,10 +38,6 @@ var starQuiz = document.querySelector("#begin");
 var score = 0
 var timeLeft = 60
 
-function storeScore() {
-    localStorage.setItem("stored score", score);
-}
-
 //begin quiz timer 
 function playgame() {
     var timeInterval = setInterval(function () {
