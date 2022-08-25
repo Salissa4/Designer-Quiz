@@ -38,19 +38,6 @@ var starQuiz = document.querySelector("#begin");
 var score = 0
 var timeLeft = 60
 
-var scoreArray = [
-    {
-        user: "name",
-        score: number ,
-    }
-]
-
-scoreArray.push({
-    user: [" name "],
-    score: 
-})
-
-
 function storeScore() {
     localStorage.setItem("stored score", score);
 }
