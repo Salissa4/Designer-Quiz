@@ -22,7 +22,7 @@ https://salissa4.github.io/Designer-Quiz/
 
 ## Credits
 
-1. Collab/Edit: Handruliz Nova     Github: https://github.com/Handruliz
+1. Collab/Edit: Tomas Diaz         Github: https://github.com/tomasdiaz83
 2. Collab/Edit: Jeffery Littleton  Github: https://github.com/littletonjeffrey
 3. Collab/Edit: Dave Edelson       Github: https://github.com/DBEdelson
 
