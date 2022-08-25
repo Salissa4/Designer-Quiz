@@ -97,4 +97,3 @@ function checkAnswer(event) {
     }
 }
 
-
