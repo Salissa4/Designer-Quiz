@@ -91,7 +91,6 @@ function checkAnswer(event) {
 
     } else {
         timeLeft -= 10;
-        score = score - 100;
         console.log(score);
         index++;
         displayQuestion()
