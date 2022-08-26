@@ -92,4 +92,3 @@ function checkAnswer(event) {
         displayQuestion()
     }
 }
-
